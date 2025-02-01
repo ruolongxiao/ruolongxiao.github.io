@@ -1,7 +1,7 @@
 menu:
 - {name: 'research', url: '/research'}
 - {name: 'courses', url: '/courses'}
-- {name: 'vita', link: '/cv/ruolong_xiao_cv.pdf'}
+- {name: 'vita', url: '/cv/ruolong_xiao_cv.pdf'}
 # - {name: 'cv', url: '/cv'}
 
 courses:

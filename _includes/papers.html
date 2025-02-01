@@ -3,7 +3,7 @@
    <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Selected papers</h3>
       {% for item in site.data.papers.selected %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+        <p><a href="{{ item.url }}">{ {item} }</a></p>
       {% endfor %}
     <div>    
     {% else %}

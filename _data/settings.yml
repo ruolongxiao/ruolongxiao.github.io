@@ -1,7 +1,7 @@
 menu:
 - {name: 'research', url: '/publications'}
 - {name: 'courses', url: '/courses'}
-- {name: 'vita', link: 'https://github.com/LeNPaul'}
+- {name: 'vita', url: '/ruolong_xiao_cv'}
 # - {name: 'cv', url: '/cv'}
 
 courses:

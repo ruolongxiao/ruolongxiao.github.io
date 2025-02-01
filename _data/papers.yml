@@ -1,18 +1,16 @@
-<h2>selected</h2>
-<div class="papers-list">
-  <!-- Repeat this block for each paper -->
-  <div class="paper">
-    <div class="header">
-      <a href="http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf" target="_blank">
+seleced:
+  - {<div class="paper">
+      <div class="header">
+       <a href="http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf" target="_blank">
         Shock interactions, turbulence and the origin of the stellar mass spectrum
-      </a>
-      <span class="toggle-btn" onclick="toggleAbstract(this)">[Show Abstract]</span>
-    </div>
-    <div class="abstract">
-      <!-- Add actual abstract text here -->
-      This paper investigates how shock interactions in turbulent molecular clouds...
-    </div>
-  </div>
+       </a>
+       <span class="toggle-btn" onclick="toggleAbstract(this)">[Show Abstract]</span>
+      </div>
+      <div class="abstract">
+       <!-- Add actual abstract text here -->
+       This paper investigates how shock interactions in turbulent molecular clouds...
+      </div>
+     </div>}
 
 working:
 - {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}

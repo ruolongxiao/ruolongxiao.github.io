@@ -2,14 +2,14 @@
   <div>
     {% if page.title == "Home" %}
     <h3 class="fw-bold border-bottom pb-3 mb-5">Selected works</h3>
-      {% for item in site.data.papers.selected papers %}
+      {% for item in site.data.papers.selected %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
-      {% for item in site.data.papers.working papers %}
+      {% for item in site.data.papers.working %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
-    {% for item in site.data.papers.published papers %}
+    {% for item in site.data.papers.published %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% endif %}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .paper {
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .abstract {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f6f8fa;
+            border-radius: 4px;
+        }
+        .toggle-abstract {
+            cursor: pointer;
+            color: #0366d6;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        .toggle-abstract:hover {
+            text-decoration: underline;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Selected Papers -->
+<h2>Selected Papers</h2>
+<div class="papers">
+    <div class="paper">
+        <a href="http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf" target="_blank">
+            Shock interactions, turbulence and the origin of the stellar mass spectrum
+        </a>
+        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        <div class="abstract">
+            <!-- Replace with actual abstract -->
+            This paper investigates the role of shock interactions in turbulent molecular clouds...
+        </div>
+    </div>
+
+    <div class="paper">
+        <a href="http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf" target="_blank">
+            Low shear diffusion central schemes for particle methods
+        </a>
+        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        <div class="abstract">
+            <!-- Replace with actual abstract -->
+            Presents a new low shear diffusion central scheme for particle-based hydrodynamics...
+        </div>
+    </div>
+</div>
+
+<!-- Working Papers -->
+<h2>Working Papers</h2>
+<div class="papers">
+    <div class="paper">
+        <a href="/publications/1501.07274.pdf" target="_blank">
+            Testing General Relativity with Present and Future Astrophysical Observations
+        </a>
+        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        <div class="abstract">
+            <!-- Replace with actual abstract -->
+            Comprehensive review of current and future tests of general relativity using astrophysical observations...
+        </div>
+    </div>
+
+    <div class="paper">
+        <a href="https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf" target="_blank">
+            Numerical solutions of thin film equations for polymer flows
+        </a>
+        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        <div class="abstract">
+            <!-- Replace with actual abstract -->
+            Develops numerical methods for solving thin film equations describing polymer flow dynamics...
+        </div>
+    </div>
+</div>
+
+<script>
+function toggleAbstract(element) {
+    const abstract = element.nextElementSibling;
+    const isHidden = abstract.style.display === 'none' || !abstract.style.display;
+    
+    abstract.style.display = isHidden ? 'block' : 'none';
+    element.textContent = isHidden ? '[Hide Abstract]' : '[Show Abstract]';
+}
+</script>
+
+</body>
+</html>

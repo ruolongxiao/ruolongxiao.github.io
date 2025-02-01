@@ -1,8 +1,7 @@
 menu:
 - {name: 'research', url: '/publications'}
 - {name: 'courses', url: '/courses'}
-- {name: 'cv', url: '/cv'}
-- {name: 'contact', url: '/contact'}
+- {name: 'vita', url: 'https://github.com/LeNPaul'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}

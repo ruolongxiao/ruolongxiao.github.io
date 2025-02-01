@@ -7,7 +7,7 @@
       <span>{{ site.description }}</span>
     </a>
   </div>
-  <nav class="d-inline-flex justify-content-center w-150">
+  <nav class="d-inline-flex ms-md-auto">
     {% for item in site.data.settings.menu %}
     <a class="me-3 py-2 text-decoration-none fs-5" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}

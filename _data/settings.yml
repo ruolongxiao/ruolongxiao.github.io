@@ -1,5 +1,5 @@
 menu:
-- {name: 'research', url: '/publications'}
+- {name: 'research', url: '/papers'}
 - {name: 'courses', url: '/courses'}
 - {name: 'vita', url: '/cv/ruolong_xiao_cv.pdf'}
 # - {name: 'cv', url: '/cv'}

@@ -31,57 +31,90 @@
         a:hover {
             text-decoration: underline;
         }
+        .coauthors {
+            color: #22863a;
+            font-size: 0.9em;
+            margin: 4px 0;
+            font-style: italic;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 14px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            font-weight: 500;
+        }
+        .under-review {
+            background-color: #fff4e6;
+            border: 1px solid #ffab00;
+            color: #5a3e00;
+        }
+        .working-paper {
+            background-color: #e8f5e9;
+            border: 1px solid #66bb6a;
+            color: #2e7d32;
+        }
+        .paper-header {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
     </style>
 </head>
 <body>
 
 <!-- Working Papers -->
- <h3>Working papers</h3>
+<h3>Working papers</h3>
 <div class="papers">
     
     <div class="paper">
-        <a href="https://ssrn.com/abstract=4980319" target="_blank">
-            Price Information, Cost Uncertainty, and Oligopolistic Competition (with Cesar Martinelli)
-        </a>
-        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        <div class="paper-header">
+            <a href="https://ssrn.com/abstract=4980319" target="_blank">
+                Price Information, Cost Uncertainty, and Oligopolistic Competition
+            </a>
+            <span class="status under-review">Under review at JET</span>
+            <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        </div>
+        <div class="coauthors">With Cesar Martinelli</div>
         <div class="abstract">
-          We develop a model of oligopolistic competition among sellers with heterogeneous costs and analyze a pure strategy equilibrium.  We examine the role of consumer price information and seller entry in price formation. When information is exogenous, seller entry does not affect prices, and more price information for non-captive consumers leads to price divergence: low-cost sellers lower prices while high-cost sellers raise prices.  Price divergence also occurs when information is endogenized through search and raises the expected price for captive consumers under certain conditions.  We also report welfare outcomes and study third-degree price discrimination. In particular, price discrimination and uniform pricing yield equivalent payoffs.
+            We develop a model of oligopolistic competition among sellers with heterogeneous costs and analyze a pure strategy equilibrium. We examine the role of consumer price information and seller entry in price formation. When information is exogenous, seller entry does not affect prices, and more price information for non-captive consumers leads to price divergence: low-cost sellers lower prices while high-cost sellers raise prices. Price divergence also occurs when information is endogenized through search and raises the expected price for captive consumers under certain conditions. We also report welfare outcomes and study third-degree price discrimination. In particular, price discrimination and uniform pricing yield equivalent payoffs.
         </div>
     </div>
 
     <div class="paper">
-        <a href="https://drive.google.com/file/d/1VLsma7F7tFWYTc1IgK-xam3r1WR3yCIP/view?usp=sharing" target="_blank">
-            Why Do People Protest? A Theory of Emotions, Public Policy, and Political Unrest
-        </a>
-        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        <div class="paper-header">
+            <a href="https://drive.google.com/file/d/1VLsma7F7tFWYTc1IgK-xam3r1WR3yCIP/view?usp=sharing" target="_blank">
+                Why Do People Protest? A Theory of Emotions, Public Policy, and Political Unrest
+            </a>
+            <span class="status under-review">Under review at EJ</span>
+            <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        </div>
+        <div class="coauthors">With Cesar Martinelli</div>
         <div class="abstract">
-            <!-- Replace with actual abstract -->
-            We build a model of policymaking under the threat of unrest. A policymaker chooses how much effort to spend on a public good; effort is unobservable and the outcome conditional on effort is uncertain. A group of citizens protest if the outcome falls short of a reference point; the reference point is determined endogenously by rational expecta-tions about the outcome and by the height of emotions. We show that the effects of stronger emotional reactions on policymaker’s effort and the probability of protest are nonmonotonic and depend on the group’s ability to inflict damage. Equilibrium may require the policymaker to randomize between providing some effort or no effort at all, in order to temper citizens’ aspirations, in which case strong emotional reactions are counterproductive. Optimal emotional reactions are fine-tuned to minimize the probability of protest.
+            We build a model of policymaking under the threat of unrest. A policymaker chooses how much effort to spend on a public good; effort is unobservable and the outcome conditional on effort is uncertain. A group of citizens protest if the outcome falls short of a reference point; the reference point is determined endogenously by rational expectations about the outcome and by the height of emotions. We show that the effects of stronger emotional reactions on policymaker's effort and the probability of protest are nonmonotonic and depend on the group's ability to inflict damage. Equilibrium may require the policymaker to randomize between providing some effort or no effort at all, in order to temper citizens' aspirations, in which case strong emotional reactions are counterproductive. Optimal emotional reactions are fine-tuned to minimize the probability of protest.
         </div>
     </div>    
 
-  <div class="paper">
-        <a href="https://drive.google.com/file/d/1VLsma7F7tFWYTc1IgK-xam3r1WR3yCIP/view?usp=sharing" target="_blank">
-           Voter Information and Political Accountability
-        </a>
-        <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+    <div class="paper">
+        <div class="paper-header">
+            <a href="https://drive.google.com/file/d/1VLsma7F7tFWYTc1IgK-xam3r1WR3yCIP/view?usp=sharing" target="_blank">
+                Voter Information and Political Accountability
+            </a>
+            <span class="status working-paper">Working Paper</span>
+            <span class="toggle-abstract" onclick="toggleAbstract(this)">[Show Abstract]</span>
+        </div>
         <div class="abstract">
-            <!-- Replace with actual abstract -->
-            Does a more informed electorate enhance democratic efficiency? We address this question through a political agency model integrating moral hazard and adverse selection. An incumbent with private type enacts a costly policy after observing a stochastic shock. A voter, either informed (observing both outcomes and shocks) or uninformed (observing only outcomes), decides whether to retain the incumbent. Paradoxically, informed voters impair the selection of politicians. With high office rents, voter welfare is identical under both information regimes. With low office rents, informed voters achieve higher welfare only when selection is less crucial or good politicians are rare. We analyze two information disclosures: pre-policy reporting (revealing shocks before policymaking) and post-policy auditing (revealing shocks before policymaking). For reporting, full or no disclosure is optimal. Auditing permits partial disclosure, which weakly dominates reporting in welfare improvement by balancing control and selection. These findings challenge the presumption that transparency universally strengthens democracy and emphasize the importance of timing and non-monotonicity in information provision.
+            Does a more informed electorate enhance democratic efficiency? We address this question through a political agency model integrating moral hazard and adverse selection. An incumbent with private type enacts a costly policy after observing a stochastic shock. A voter, either informed (observing both outcomes and shocks) or uninformed (observing only outcomes), decides whether to retain the incumbent. Paradoxically, informed voters impair the selection of politicians. With high office rents, voter welfare is identical under both information regimes. With low office rents, informed voters achieve higher welfare only when selection is less crucial or good politicians are rare. We analyze two information disclosures: pre-policy reporting (revealing shocks before policymaking) and post-policy auditing (revealing shocks after policymaking). For reporting, full or no disclosure is optimal. Auditing permits partial disclosure, which weakly dominates reporting in welfare improvement by balancing control and selection. These findings challenge the presumption that transparency universally strengthens democracy and emphasize the importance of timing and non-monotonicity in information provision.
         </div>
     </div>   
     
 </div>
 
-<!-- Published Papers -->
-<h3>Published papers</h3>
-<div class="papers">
-
-</div>
-
 <script>
 function toggleAbstract(element) {
-    const abstract = element.nextElementSibling;
+    const abstract = element.parentElement.parentElement.querySelector('.abstract');
     const isHidden = abstract.style.display === 'none' || !abstract.style.display;
     
     abstract.style.display = isHidden ? 'block' : 'none';

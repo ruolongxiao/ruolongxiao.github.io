@@ -7,7 +7,7 @@ I am a PhD candidate in Economics at George Mason University. My current researc
 
 I will be on the job market in AY 2025 - 2026.
 
-Fields: Applied Game Theory, Political Economy, Industrial Organization, Experimental Economics.
+Research interests: Applied Game Theory, Political Economy, Industrial Organization, Experimental Economics.
 
-**contact: rxiao2@gmu.edu**
+**Contact:** [rxiao2@gmu.edu](mailto:rxiao2@gmu.edu)
 

@@ -5,7 +5,8 @@ menu:
 # - {name: 'cv', url: '/cv'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Microeconomic Theory', url: 'vector-calculus'}
+- {name: 'International Economic Policy', url: 'vector-calculus'}
 
 social:
 - {icon: 'github', link: 'https://ruolongxiao.github.io'}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Microeconomic Theory"
+title: "Price Theory"
 ---
 
 #### Course Information

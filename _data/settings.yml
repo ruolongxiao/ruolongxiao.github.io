@@ -5,8 +5,9 @@ menu:
 # - {name: 'cv', url: '/cv'}
 
 courses:
-- {name: 'Microeconomic Theory', url: 'micro-undergrad'}
-- {name: 'International Economic Policy', url: 'international-undergrad'}
+- {name: 'Price Theory', url: 'micro-undergrad'}
+- {name: 'Game Theory', url: 'international-undergrad'}
+- {name: 'Political Economy', url: 'international-undergrad'}
 
 social:
 - {icon: 'github', link: 'https://ruolongxiao.github.io'}

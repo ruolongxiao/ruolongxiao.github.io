@@ -5,7 +5,7 @@ menu:
 # - {name: 'cv', url: '/cv'}
 
 courses:
-- {name: 'Price Theory', url: 'micro-undergrad'}
+- {name: 'Price Theory', url: 'micro-undergrad.md'}
 - {name: 'Game Theory', url: 'international-undergrad'}
 - {name: 'Political Economy', url: 'international-undergrad'}
 
